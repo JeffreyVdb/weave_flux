@@ -7,6 +7,8 @@ metadata:
     app: hello_i18n
     project: hello
   name: hello-i18n
+  annotations:
+    flux.weave.works/automated: 'true'
 spec:
   replicas: 1
   selector:
