@@ -19,6 +19,6 @@ spec:
         run: hello
     spec:
       containers:
-      - image: jeffreyvdb/hello:1.0.0
+      - image: jeffreyvdb/hello:1.1.0
         name: hello
         resources: {}
