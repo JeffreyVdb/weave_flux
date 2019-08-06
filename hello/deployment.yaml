@@ -11,10 +11,8 @@ spec:
   selector:
     matchLabels:
       app: hello
-  strategy: {}
   template:
     metadata:
-      creationTimestamp:
       labels:
         app: hello
     spec:

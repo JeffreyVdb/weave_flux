@@ -10,7 +10,6 @@ spec:
   selector:
     matchLabels:
       app: hello_i18n
-  strategy: {}
   template:
     metadata:
       labels:
