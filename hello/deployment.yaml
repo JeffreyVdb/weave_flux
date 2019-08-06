@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: hello
+    app: hello
+  name: hello
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: hello
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: hello
+    spec:
+      containers:
+      - image: jeffreyvdb/hello
+        name: hello
+        resources: {}
