@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: hello_app
+  namespace: hello-app
   labels:
     app: hello_i18n
     project: hello
