@@ -5,7 +5,7 @@ metadata:
   labels:
     app: hello_i18n
     project: hello
-  name: hello_i18n
+  name: hello-i18n
 spec:
   ports:
     - name: grpc

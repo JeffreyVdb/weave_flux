@@ -5,7 +5,7 @@ metadata:
   labels:
     app: hello_i18n
     project: hello
-  name: hello_i18n
+  name: hello-i18n
 spec:
   replicas: 1
   selector:
@@ -18,5 +18,5 @@ spec:
     spec:
       containers:
         - image: jeffreyvdb/hello_i18n
-          name: hello_i18n
+          name: hello-i18n
           resources: {}
