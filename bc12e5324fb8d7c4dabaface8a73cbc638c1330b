@@ -1,0 +1,1 @@
+{"jobID":"a64ff2ce-26ec-b883-b3f1-f3c6e15772ae","spec":{"type":"policy","cause":{"Message":"","User":"Jeffrey Vandenborne \u003cjeffrey.vandenborne@trendminer.com\u003e"},"spec":{"hello-app:deployment/hello-i18n":{"add":{"automated":"true"},"remove":null}}},"result":null}
