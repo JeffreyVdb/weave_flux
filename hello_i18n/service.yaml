@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: hello_i18n
+  name: hello_i18n
+spec:
+  ports:
+  - name: grpc
+    port: 7777
+    protocol: TCP
+    targetPort: 7777
+  selector:
+    app: hello_i18n
+  type: ClusterIP
