@@ -2,23 +2,21 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    run: hello_i18n
-    app: hello
-    grpc: yes
+    app: hello_i18n
+    project: hello
   name: hello_i18n
 spec:
   replicas: 1
   selector:
     matchLabels:
-      run: hello_i18n
+      app: hello_i18n
   strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
-        run: hello_i18n
+        app: hello_i18n
     spec:
       containers:
-      - image: jeffreyvdb/hello_i18n
-        name: hello_i18n
-        resources: {}
+        - image: jeffreyvdb/hello_i18n
+          name: hello_i18n
+          resources: {}
