@@ -4,6 +4,7 @@ metadata:
   labels:
     run: hello_i18n
     app: hello
+    grpc: yes
   name: hello_i18n
 spec:
   replicas: 1
