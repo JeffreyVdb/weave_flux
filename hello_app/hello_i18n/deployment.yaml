@@ -20,6 +20,6 @@ spec:
         app: hello_i18n
     spec:
       containers:
-      - image: jeffreyvdb/hello_i18n:1.2.1
+      - image: jeffreyvdb/hello_i18n:1.2.2
         name: hello-i18n
         resources: {}
