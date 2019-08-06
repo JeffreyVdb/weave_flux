@@ -1,21 +1,23 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: hello_app
   labels:
-    app: hello_i18n
+    app: hello
     project: hello
-  name: hello_i18n
+  name: hello
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: hello_i18n
+      app: hello
   template:
     metadata:
       labels:
-        app: hello_i18n
+        app: hello
     spec:
       containers:
-        - image: jeffreyvdb/hello_i18n
-          name: hello_i18n
+        - image: jeffreyvdb/hello:1.1.1
+          name: hello
           resources: {}
