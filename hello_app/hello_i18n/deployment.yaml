@@ -10,7 +10,7 @@ metadata:
   annotations:
     flux.weave.works/automated: 'true'
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: hello_i18n
